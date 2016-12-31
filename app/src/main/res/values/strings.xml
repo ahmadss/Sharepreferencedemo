@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sharepreference demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="pilih_warna_color_tolbar">Pilih Warna Color Tolbar</string>
+    <string name="pilih_color_tolbar">pilih color tolbar</string>
+    <string name="warna_kuning">Warna Kuning</string>
+    <string name="warna_merah">Warna Merah</string>
+    <string name="warna_hijau">Warna Hijau</string>
+</resources>

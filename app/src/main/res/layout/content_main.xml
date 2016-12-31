@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.androidlokomedia.sharepreferencedemo.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/pilih_color_tolbar"
+        android:id="@+id/textView"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/warna_hijau"
+        android:id="@+id/buttonHijau"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/warna_merah"
+        android:id="@+id/buttonMerah"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/warna_kuning"
+        android:id="@+id/buttonKuning"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
